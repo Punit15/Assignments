@@ -1,0 +1,24 @@
+1. How do you implement multiple inheritance in java?
+
+--> we can implement multiple inheritance using abstract classes.
+
+2. How do you restrict a member of a class from inheriting to it’s sub classes.?
+
+--> we can restrict from being inherited using "final" keyword.
+
+3. Are constructors and initializers also inherited to sub classes.?
+
+--> we can call constructor of a super call from constructor of subclass but we can't inherit it. Initializers are executed whenever an instance of a class is created can't be inherited.
+
+4. Are static members inherited to sub classes?
+
+--> yes static members can be inherited to sub classes. when member with same signature present in subclass than parent members may be overridden.
+
+5. Can we use a field or a method declared without access modifiers outside the package.?
+
+--> without access modifiers it is considered as a Default so, Default method or a field can be only accessible within a package.
+
+6. Can a top level class be private or protected? 
+
+--> no, top level class cant be private or protected. it can be public, abstract, or final.
+
